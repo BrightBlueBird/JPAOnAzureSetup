@@ -15,8 +15,10 @@ public class StartAndSave implements CommandLineRunner {
 
   public StartAndSave(ExamRepository examRepo) {this.examRepo = examRepo;}
 
+
+
   @Override
-  public void run(String... args) throws Exception {
+  public void run(String... args) {
     Exam e1 = new Exam();
     e1.setDate(LocalDate.now());
     e1.setSubject("Teknologi");
