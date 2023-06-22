@@ -18,6 +18,7 @@ public class ExamRestController {
   @Autowired
   ExamRepository examRepository;
 
+  //hej
   @GetMapping("/exams")
   public List<Exam> exams() {
     List<Exam> ex = examRepository.findAll();
