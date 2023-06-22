@@ -10,7 +10,7 @@ import java.time.LocalTime;
 
 @Component
 public class StartAndSave implements CommandLineRunner {
-
+//hej
   ExamRepository examRepo;
 
   public StartAndSave(ExamRepository examRepo) {this.examRepo = examRepo;}
